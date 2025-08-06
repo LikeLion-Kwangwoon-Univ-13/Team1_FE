@@ -1,5 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Kakao Big Sans';
+  src: url('./assets/fonts/KakaoBigSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: 'Kakao Big Sans';
+  src: url('./assets/fonts/KakaoBigSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+
+@font-face {
+  font-family: 'Kakao Big Sans';
+  src: url('./assets/fonts/KakaoBigSans-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-size: 24px;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  @apply font-sans;
   line-height: 1.5;
   font-weight: 400;
 
