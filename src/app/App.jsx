@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
+import reactLogo from '../assets/images/sun.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -25,6 +25,9 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
           안녕하세요
         </p>
+        <div className='font-big font-bold text-[24px]'>큰 글씨</div>
+        <div className='font-small font-light text-gray-400 text-[13px]'>작은 글씨</div>
+        <div className='font-logo text-yellow text-[33px]'>로고 글씨</div>
       </div>
       <p className="read-the-docs font-bold">
         Click on the Vite and React logos to learn more
